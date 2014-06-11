@@ -1,0 +1,74 @@
+//@import url(http://fonts.googleapis.com/css?family=Roboto:100italic);
+@import "bourbon";
+
+
+$white_color:#fff;
+$logo: #0f82c1;
+$font-size-menu: 30px;
+$font-weight-menu: 100;
+$cloud_grey: #DADFE1;
+$cloud_grey_bacground:#F2F1EF;
+
+//==============================================VAR==========================================
+$navbar-default-bg:  $white_color;
+$navbar-height: 80px;
+$navbar-default-brand-color: $logo;
+$font-family-sans-serif: $helvetica;
+$body-bg: $cloud_grey_bacground;
+$thumbnail-border: $cloud_grey;
+
+
+
+
+
+div.thumbnail{
+  background-color: $white_color;
+  border-width: 2px;
+}
+
+
+a.navbar-brand{
+
+  font-size: $font-size-menu;
+  font-weight: $font-weight-menu;
+
+
+}
+
+a{
+
+  font-size: $font-size-menu;
+  font-weight: $font-weight-menu;
+}
+
+.center{
+
+  text-align: center;
+}
+
+.col-md-3:nth-child(4n+1){
+
+  clear: left;
+}
+
+h1.title{
+
+  font-size: $font-size-menu;
+  font-weight: 200;
+}
+div.caption, h3{
+
+  font-size: $font-size-menu;
+  font-weight: 100;
+}
+
+nav.navbar{
+
+  border-bottom: 1px solid $cloud_grey  ;
+}
+
+
+
+
+
+@import "bootstrap";
